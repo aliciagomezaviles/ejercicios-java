@@ -18,5 +18,34 @@ public class PrimitivosFloat {
 
         var varFlotante = 3.1416;
         System.out.println("varFlotante = " + varFlotante);
+
+        char espacio = ' '; // \u0020, corresponde al espacio en unicode
+
+        System.out.println("char corresponde en byte:" + espacio + Character.BYTES);
+
+        char retroceso = '\b';
+
+        System.out.println("char corresponde en byte:" + retroceso + Character.BYTES); //Elimina los 2 puntos
+        System.out.println("char corresponde en byte:" + retroceso + retroceso + Character.BYTES); //Elimina los 2 puntos
+
+        char tabulador = '\t';
+
+        System.out.println("char corresponde en \t byte:" + tabulador + Character.BYTES); //Se puede poner también en la linea de texto
+
+        char nuevaLinea = '\n';
+
+        System.out.println("char corresponde en byte:" + nuevaLinea + Character.BYTES);
+
+        char retornoCarro = '\r';
+
+        System.out.println("char corresponde en byte:" + retornoCarro + Character.BYTES);
+
+
+
+
+
+
+
+
     }
 }
